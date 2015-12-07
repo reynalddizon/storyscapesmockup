@@ -1,0 +1,42 @@
+.btn-fill {
+    border-radius: 20px;
+    opacity: 0.7;
+    border:2px solid transparent;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-fill:hover {
+    border: 2px solid whitesmoke;
+    opacity: 1;
+}
+
+.btn-gradient {
+    border-radius: 20px;
+    opacity: 0.7;
+    border:2px solid white;
+    width: 90px;
+    height: 25px;
+}
+
+.btn-gradient:hover {
+    border: 2px solid lightgray;
+    opacity: 1;
+}
+
+.tab-inner h3 {
+	margin: 5px 0 15px;;
+}
+
+#tabs-collapse {
+	padding: 0px;
+}
+
+#nav-tabs {
+	padding-top: 10px;
+}
+
+.btn-group-justified btn-primary {
+	border:3px solid white;
+}
+
