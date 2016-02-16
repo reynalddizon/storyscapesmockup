@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<!-- Basic Page Needs
+		================================================== -->
+		<meta charset="utf-8">
+		<title>StoryScapes News</title>
+		<meta name="description" content="StoryScapes Beta">
+		<meta name="author" content="reynalddizon">
+		<!-- Mobile Specific Metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- CSS
+		================================================== -->
+		<!-- Bootstrap  -->
+		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<!-- web font  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
+		<!-- plugin css  -->
+		<link rel="stylesheet" type="text/css" href="js-plugin/animation-framework/animate.css" />
+		<link rel="stylesheet" type="text/css" href="js-plugin/magnific-popup/magnific-popup.css" />
+		<link type="text/css" rel="stylesheet" href="js-plugin/isotope/css/style.css">
+		<link rel="stylesheet" type="text/css" href="js-plugin/flexslider/flexslider.css" />
+		<link rel="stylesheet" type="text/css" href="js-plugin/pageSlide/jquery.pageslide.css" />
+		<!-- Owl carousel-->
+		<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.theme.css">
+		<!-- icon fonts -->
+		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/custom-icons.css">
+		<link href="font-icons/custom-icons/css/flags.css"" media="screen" rel="stylesheet" type="text/css">
+		<!-- Custom css -->
+		<link type="text/css" rel="stylesheet" href="css/layout.css">
+		<link type="text/css" id="colors" rel="stylesheet" href="css/navy.css">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+		<script src="js/modernizr-2.6.1.min.js"></script>
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+	</head>
+	<body data-spy="scroll" data-target="#scrollTarget" data-offset="150">
+		<!-- Primary Page Layout 
+		================================================== -->
+		<!-- globalWrapper -->
+		<div id="globalWrapper">
+			<!-- header -->
+			<header id="mainHeader" class="navbar-fixed-top" role="banner">
+				<div class="container">
+					<nav class="navbar navbar-default scrollMenu" role="navigation">
+						<div class="navbar-header" style="height:50px">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+							<a class="navbar-brand" href="home.html"><img src="images/logo.png" class="img-responsive" style="padding:5px"/></a> </div>
+							<div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
+								<!--<form role="search">
+     								 <div class="form-group">
+        								<input type="text" class="form-control" placeholder="Search">
+     								 </div>
+     								<button type="submit" class="btn btn-sm"><i class="icon-search"></i></button>
+    								</form>
+    								-->
+								<ul class="nav navbar-nav pull-right">
+     							  	<li class="btn-toolbar">
+     							  	
+     							    	<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a href="search.html" style="text-decoration:none;font-size:1.3em;color:black">
+												Explore
+											</a>
+										</button></div>
+										
+										<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a href="welcome.html" style="text-decoration:none;font-size:1.3em;color:black">
+												Create
+											</a>
+										</button></div>
+										
+										<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a href="guides.html" style="text-decoration:none;font-size:1.3em;color:black">
+												Guides
+											</a>
+										</button></div>
+										
+										<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a href="getstarted.html" style="text-decoration:none;font-size:1.3em;color:black">
+												About
+											</a>
+										</button></div>
+     							    	
+     							    	<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a href="news.html" style="text-decoration:none;font-size:1.3em;color:black">
+												News
+											</a>
+										</button></div>
+										
+										<div class="btn-group"><button class="btn btn-sm dropdown-toggle" data-toggle="dropdown" style="background-color:white;border:transparent">
+											<a href="#" style="text-decoration:none;font-size:1.3em;color:black">
+												<i class="icon-doc"></i>
+											</a>
+										</button>
+										<ul class="dropdown-menu">
+         								 <li><a href="profile_visit.html">Profile</a></li>
+         								 <li><a href="profile_log.html">Profile (logged)</a></li>
+          								 <li><a href="profile_edit.html">Profile (edit)</a></li>
+          								 <li class="divider"></li>
+          								 <li><a href="groups.html">Organization</a></li>
+         								  <li class="divider"></li>
+         								 <li><a href="storylayer.html">Layer</a></li>
+         								 <li><a href="StoryScape.html">StoryScape</a></li>
+										</ul></div>
+										
+										<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a data-toggle="modal" data-target="#loginModal" style="text-decoration:none;font-size:1.3em;color:black">
+												<i class="icon-user"></i>
+											</a>
+										</button></div>
+										
+										<div class="btn-group"><button class="btn btn-sm" style="background-color:white;border:transparent">
+											<a data-toggle="modal" data-target="#helpModal" style="text-decoration:none;font-size:1.3em;color:black">
+												<i class="icon-info"></i>
+											</a>
+										</button></div>
+     							    </li>
+     							  </ul>
+							</div>
+						</nav>
+				</div>
+			</header>
+			
+			<div class="modal fade" id="loginModal">
+  					<div class="modal-dialog">
+   						 <div class="modal-content">
+      						<!--<div class="modal-header">
+        						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        						<h2 class="modal-title" id="myModalLabel">Welcome to StoryScapes</h2>
+      						</div>-->
+      						<div class="modal-body">
+      							<div class="row" style="margin:10px">
+						<div class="col-sm-6" style="border-right:1px solid darkgray">
+							<h1 style="font-size:1.4em"><strong>Log in</strong></h1>
+							<hr class="col-sm-10" style="margin:10px">
+							<form class="form form-horizontal" method="post" action="#" accept-charset="UTF-8"><input name="authenticity_token" type="hidden"><div class="form-group">
+                        <label class="col-md-3 control-label" for="inputText1">Username</label>
+                        <div class="col-md-8">
+                          <input class="form-control" id="inputText1" placeholder="Username" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-3 control-label" for="inputPassword4">Password</label>
+                        <div class="col-md-8">
+                          <input class="form-control" id="inputPassword4" placeholder="Password field" type="password" value="Top secret!">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-8 col-md-offset-3">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              Remember me
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-8 col-md-offset-3">
+                            <label>
+                              <a href="#" style="color:black">Forgot password?</a>
+                            </label>
+                        </div>
+                      </div>
+                      <div class="form-actions form-actions-padding-sm">
+                        <div class="row">
+                          <div class="col-sm-offset-2 col-sm-8">
+                          	<button class="btn btn-sm btn-block"><a href="profile.html">Sign in</a></button>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="col-sm-11" style="margin:10px">
+                      <div class="form-actions form-actions-padding-sm">
+                        <div class="row">
+                        	<div class="col-sm-11">
+                        	<h1 style="font-size:1.2em;">Connect your account</h1>
+                          <div class="col-sm-3">
+                          	<button class="btn btn-sm btn-block" style="background-color:dodgerblue;color:white"><i class="icon-facebook-1"></i></button>
+                          </div>
+                          <div class="col-sm-3">
+                          	<button class="btn btn-sm btn-block" style="background-color:deepskyblue;color:white"><i class="icon-twitter-bird"></i></button>
+                          </div>
+                          <div class="col-sm-3">
+                          	<button class="btn btn-sm btn-block" style="background-color:red;color:white"><i class="icon-gplus-1"></i></button>
+                          </div>
+                          <div class="col-sm-3">
+                          	<button class="btn btn-sm btn-block" style="background-color:blueviolet;color:white"><i class="icon-yahoo"></i></button>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      </form>
+						</div>
+						<div class="col-sm-6" >
+							<h1 class="col-sm-offset-1" style="font-size:1.4em">
+								<strong>Sign up to StoryScapes</strong>
+								<button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true">&times;</button>
+							</h1>
+							<hr class="col-sm-offset-1 col-sm-10" style="margin:10px">
+							<form class="form form-horizontal" method="post" action="#" accept-charset="UTF-8"><input name="authenticity_token" type="hidden">
+							<div class="form-group">
+                        <label class="col-sm-offset-1 col-md-2 control-label" for="inputText1">Name</label>
+                        <div class="col-md-4">
+                          <input class="form-control" id="inputText1" placeholder="First" type="text">
+                        </div>
+                        <div class="col-md-5">
+                          <input class="form-control" id="inputText1" placeholder="Last" type="text">
+                        </div>
+                      </div>
+                      		<div class="form-group">
+                        <label class="col-sm-offset-1 col-md-2 control-label" for="inputText1">Email</label>
+                        <div class="col-md-9">
+                          <input class="form-control" id="inputText1" placeholder="@email.com" type="text">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-offset-1 col-md-2 control-label" for="inputPassword4">Password</label>
+                        <div class="col-md-9">
+                          <input class="form-control" id="inputPassword4" placeholder="Password field" type="password" value="Top secret!">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-offset-1 col-md-2 control-label" for="inputPassword4">Confirm Password</label>
+                        <div class="col-md-9">
+                          <input class="form-control" id="inputPassword4" placeholder="Password field" type="password" value="Top secret!">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-md-offset-3">
+                          <div class="checkbox">
+                            <label>
+                              <a href="#" style="color:black">Signing up as an organization?</a>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-md-offset-3">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" value="">
+                              I agree with the <a href="#" style="color:black">Terms and Conditions</a>.
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-actions form-actions-padding-sm">
+                        <div class="row">
+                          <div class="col-sm-offset-2 col-sm-9">
+                          	<button class="btn btn-sm btn-block">Join StoryScapes</button>
+                          </div>
+                        </div>
+                      </div>
+                      </form>
+						</div>
+					</div>
+        					</div>
+   						 </div><!-- /.modal-content -->
+  					</div><!-- /.modal-dialog -->
+				</div>
+			
+			<div class="modal fade" id="helpModal" ole="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  					<div class="modal-dialog">
+   						 <div class="modal-content">
+      						<div class="modal-header">
+        						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        						<h2 class="modal-title" id="myModalLabel">StoryScapes Help Center</h2>
+      						</div>
+      						<div class="modal-body">
+        						<ul class="nav nav-tabs">
+  									<li class="active"><a href="#post" data-toggle="tab">Post a Question</a></li>
+  									<li><a href="#faqs" data-toggle="tab">FAQs</a></li>
+  									<li><a href="#links" data-toggle="tab">Links</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="post">
+										<form role="form">
+  											<div class="form-group">
+   												<label for="exampleInputEmail1">Question Title</label>
+    											<input type="text" class="form-control" id="questiontitle" placeholder="Search or ask your question">
+  											</div>
+  											<div class="form-group">
+    											<label for="exampleInputPassword1">Description</label>
+    											<input type="text" class="form-control" id="questiondetail" placeholder="Details">
+  											</div>
+ 											<div class="form-group">
+    											<label for="exampleInputFile">Attach a screenshot</label>
+    											<input type="file" id="exampleInputFile">
+  											</div>
+  											<div class="checkbox">
+   												 <label>
+      												<input type="checkbox"> Ask anonymously
+    											</label>
+ 											 </div>
+  											<button type="submit" class="btn btn-default btn-sm">Ask question</button>
+										</form>
+									</div>
+									<div class="tab-pane" id="faqs">
+										<h2>Frequently Asked Questions</h2>
+										<h3>Question 1</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+										<h3>Question 2</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+										<h3>Question 3</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+									</div>
+									<div class="tab-pane" id="links">
+										<h2>List of Resources</h2>
+
+										<h3>StoryScapes Wiki</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+								
+										<h3>How To Videos</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+								
+										<h3>Data Repositories</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+								
+										<h3>How-to video blogs</h3>
+										<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec. Ad augue qualisque mel, pri vidit ferri in. In idque concludaturque pri.</p>
+								
+									</div>
+								</div>
+        					</div>
+   						 </div><!-- /.modal-content -->
+  					</div><!-- /.modal-dialog -->
+				</div>
+				
+				<!-- content -->
+				
+				<div id="paralaxSlice1" data-stellar-background-ratio="0.5">
+						<div class="maskParent">
+							<div class="paralaxMask"></div>
+							<div class="paralaxText container" style="text-align:left;padding-bottom:0">
+								<div class="row">
+									<div class="col-sm-8">
+										<div style="padding:50px 0px 30px 5px;">
+											<h4 style="color:white">01 January 2015</h4>
+											<h1 style="font-size:3em"><strong>News Entry Title</strong></h1>
+											<h4 style="color:white">by Author</h4>
+										</div>
+									</div>
+								</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				<!-- dashboard -->
+				<section class="slice" id="dashboard" style="padding-top:20px">
+					<div class="container">
+						<div class="row">
+					<div class="col-sm-12" style="padding-bottom:10px">
+						<div class="row">
+							<div class="col-sm-2" style="text-align:right">
+								<h3>
+									<span style="color:orange">comment</span>
+								</h3>
+								<hr style="margin:5px">
+								<h3>
+									<span style="color:dodgerblue">facebook</span>
+								</h3>
+								<hr style="margin:5px">
+								<h3>
+									<span style="color:deepskyblue">twitter</span>
+								</h3>
+							</div>
+							<div class="col-sm-10" style="border-left:1px solid gainsboro">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus turpis erat, ut malesuada libero facilisis eu. Proin enim orci, finibus id tristique sed, consequat rhoncus sapien. Vivamus in neque quis lorem ultrices laoreet. Suspendisse gravida maximus eros, dictum malesuada justo tempor et. Ut euismod tellus vel sem vestibulum hendrerit. Proin nec blandit sem. Ut ante ex, tempor vel nunc auctor, pharetra venenatis sapien. Proin et pulvinar nisl. Cras a enim enim. Ut quis mi sit amet tortor suscipit semper et quis nibh.
+Quisque ultricies odio vel sapien congue, ut scelerisque sem efficitur. Pellentesque et ex enim. Pellentesque commodo pharetra orci vitae aliquam. Aliquam eget eleifend metus, a ultrices turpis. Phasellus in magna viverra, ornare enim varius, placerat urna. Etiam at ullamcorper orci, non dignissim libero. Sed placerat ante eget faucibus commodo. Ut auctor consectetur ultrices. Aenean iaculis efficitur accumsan. Curabitur rhoncus lacus sed nunc lacinia, non congue mauris congue. Morbi sed pharetra est, volutpat mollis libero. Cras a eros gravida lacus pulvinar vehicula. Sed sit amet tempus purus.
+Nam quis vestibulum risus, sit amet tincidunt velit. Aenean risus sapien, auctor ut sollicitudin in, faucibus eget enim. In hac habitasse platea dictumst. In maximus blandit elementum. Quisque eget enim sit amet massa rutrum rhoncus. Sed nec purus accumsan, tristique nisl eget, porttitor orci. Nunc facilisis urna ut sagittis pellentesque. Nam vitae eros dolor. Nam eget justo suscipit, tristique dolor placerat, semper justo. Donec vestibulum maximus leo. Morbi porttitor velit vel semper porttitor. Curabitur ut commodo nisl.
+							</div>
+						</div>
+					</div>
+				</div>
+					</div>
+				</section>
+				<section class="slice" id="dashboard" style="padding-top:20px">
+					<div class="container">
+						<div class="row" style="border-bottom:1px solid gainsboro">
+					        <div class="col-sm-10 col-sm-offset-2">
+										<h2><strong>Comments (1,234)</strong></h2>
+										<br>
+										<div class="col-sm-12">
+											<div class="form-group">
+												<textarea name="comment" class="form-control" id="comments" cols="3" rows="3" placeholder="Add a comment"></textarea>
+											</div>
+											<a class="btn btn-xs" title="" href="#" target="blank">
+												<span style="font-size:1.2em">Submit comment</span>
+											</a>
+											</div>
+										<hr>
+										<div class="col-sm-12">
+										<div style="max-height:400px; overflow-y:scroll; overflow-x:hidden">
+													<div class="col-sm-12">
+														<div class="row boxFeature">
+															<div class="col-xs-2">
+																<img class="img-circle" src="images/avatar.jpg" width="70"/> 
+															</div>
+															<div class="col-xs-10">
+																<h3>Robin Scherbatsky</h3>
+																<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="row boxFeature">
+															<div class="col-xs-2">
+																<img class="img-circle" src="images/avatar.jpg" width="70"/> 
+															</div>
+															<div class="col-xs-10">
+																<h3>Barney Stinson</h3>
+																<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="row boxFeature">
+															<div class="col-xs-2">
+																<img class="img-circle" src="images/avatar.jpg" width="70"/> 
+															</div>
+															<div class="col-xs-10">
+																<h3>Ted Mosby</h3>
+																<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="row boxFeature">
+															<div class="col-xs-2">
+																<img class="img-circle" src="images/avatar.jpg" width="70"/> 
+															</div>
+															<div class="col-xs-10">
+																<h3>Lily Aldrin</h3>
+																<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="row boxFeature">
+															<div class="col-xs-2">
+																<img class="img-circle" src="images/avatar.jpg" width="70"/> 
+															</div>
+															<div class="col-xs-10">
+																<h3>Marshall Erikssen</h3>
+																<p>Lorem ipsum dolor sit amet, modus utroque patrioque pro et, in zril maiorum voluptatibus nec.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+									</div>
+				</div>
+					</div>
+				</section>
+				<!-- dashboard -->
+				
+			<footer class="color4" style="padding:20px 10px;width:100%;">
+					<section id="mainFooter">
+						<div class="container" id="footer">
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="footerWidget">
+										<strong> StoryScapes</strong> is the atlas of change that everyone can edit. We are a community, not a company, that envisions a world where everyone's wisdom can be tapped, peer reviewed, organized and shared so that we all can dramatically improve our understanding of the rich past, complex present and uncertain future we share as living beings on planet Earth.
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div>
+										<button class="btn btn-sm btn-block btn-default">
+											<a href="donate.html">Help StoryScapes grow.<br/> Make a donation.</a>
+										</button>
+									</div>
+								</div>
+								</div>
+						</div>
+					</section>
+					<br>
+					<section>
+						<div class="container">
+									<hr style="margin:10px 0 10px 0">
+									<div class="row">
+									<div class="col-sm-12">
+											<p><small>By using this site, you agree to the License, Terms of Use and Privacy Policy. StoryScapes® is a registered trademark of the StoryScapes Foundation, Inc., a non-profit organization.</small></p>
+											<p><small>About the StoryScapes Foundation | Blog | Contact | Developers | Mobile View | Press | Disclaimers | Values | wiki.StoryScapes.org</small></p>
+									</div>
+								</div>
+							</div>
+				</section>
+				</footer>
+					</div>
+					<!-- global wrapper -->
+		<!-- End Document 
+		================================================== -->
+		<script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+		<!-- third party plugins  -->
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+
+		<script type="text/javascript" src="js-plugin/flexslider/jquery.flexslider-min.js"></script>
+
+		<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.form.js"></script>
+		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js-plugin/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="js-plugin/parallax/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+		<script type="text/javascript" src="js-plugin/parallax/js/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="js-plugin/parallax/js/jquery.stellar.min.js"></script>
+		<!-- <script type="text/javascript" src="js-plugin/smoothscroll/SmoothScroll.js"></script> -->
+		<script type="text/javascript" src="js-plugin/pageSlide/jquery.pageslide-custom.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery.sharrre-1.3.4/jquery.sharrre-1.3.4.min.js"></script>
+
+		<script type="text/javascript" src="js-plugin/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+
+
+		<!-- Custom  -->
+		<script type="text/javascript" src="js/custom.js"></script>
+	</body>
+	</html>
